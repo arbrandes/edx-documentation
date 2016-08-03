@@ -6,15 +6,14 @@ Word Cloud Tool
 
 .. note:: EdX offers provisional support for this tool.
 
-In a word cloud, students enter words into a field in response
-to a question or prompt. The words that all of the students enter then
-appear instantly as a colorful graphic, with the most popular responses
-appearing largest. The graphic becomes larger as more students answer.
-Students can both see the way their peers have answered and contribute
-their thoughts to the group.
+In a word cloud, learners enter words into a field in response to a question
+or prompt. The words that all of the learners enter then appear instantly as a
+colorful graphic, with the most popular responses appearing largest. The
+graphic becomes larger as more learners answer. Learners can see how their
+peers answered as well as contribute their thoughts to the group.
 
-For example, the following word cloud was created from students'
-responses to a question in a HarvardX course.
+For example, the following word cloud was created from learners' responses to
+a question about why they think addressing climate change is difficult.
 
 .. image:: ../../../shared/images/WordCloudExample.png
   :alt: Image of a word cloud problem.
@@ -45,16 +44,18 @@ To create a word cloud, follow these steps.
    under **Add New Component**.
 #. In the list of problem types, select **Word Cloud**.
 #. In the component that appears, select **Edit**.
-#. In the component editor, specify the settings that you want. You can
-   leave the default value for everything except **Display Name**.
+#. In the component editor, specify these settings.
 
-   * **Display Name**: This name appears as a heading above the problem.
-   * **Inputs**: The number of text boxes into which students can enter words,
+   * **Display Name**: The name you give to this word cloud; this name appears
+     as a heading above the problem.
+   * **Inputs**: The number of text boxes provided for learners to enter words,
      phrases, or sentences.
+   * **Instructions**: The instructions, or prompt for this word cloud. Replace
+     the text in this field with specific instructions for this word cloud.
    * **Maximum Words**: The maximum number of words that the word cloud
-     displays. If students enter 300 different words but the maximum is set to
+     displays. If learners enter 300 different words but the maximum is set to
      250, only the 250 most commonly entered words appear in the word cloud.
-   * **Show Percents**: The number of times that students have entered a given
+   * **Show Percents**: The number of times that learners have entered a given
      word as a percentage of all words entered appears near that word.
 
 #. Select **Save**.
