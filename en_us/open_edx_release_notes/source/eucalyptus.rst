@@ -446,6 +446,17 @@ System Upgrades and Updates
 
 * JavaScript tests are now run using Karma rather than JS-Test-Tool.
 
+
+***********************
+Mobile App Updates
+***********************
+
+The Open edX Eucalyptus release includes the following new features in the
+mobile app.
+
+*
+
+
 *********************
 Deprecated Features
 *********************
