@@ -24,9 +24,6 @@ The level of support that edX provides for each problem, exercise, or tool
 varies. The levels of support are categorized as full, provisional, or no
 support. This table provides the definition for each level of support.
 
-.. note:: Exercises and tools that are not supported are not available for
-   adding to your course unless you enable a setting in Studio. For more
-   information, see :ref: TO COME
 
 .. list-table::
    :widths: 25 60
@@ -52,6 +49,11 @@ support. This table provides the definition for each level of support.
        courses due to non-compliance with one or more of the base
        requirements, such as testing, accessibility, internationalization, and
        documentation.
+
+       When you add course content in Studio, only exercises and problem types
+       that have full or provisional support are available by default. To
+       enable adding unsupported exercises and problem types in Studio, see
+       :ref: TO COME.
 
 
 
@@ -160,9 +162,9 @@ of these problem types also have full support and are mobile-ready.
 * :ref:`Text Input with Hints and Feedback <Use Feedback in a Text Input
   Problem>`
 
-========
-Advanced
-========
+========================
+Advanced Problem Types
+========================
 
 When you select any of the advanced problem types in Studio the :ref:`advanced
 editor<Advanced Editor>` opens.
@@ -174,6 +176,55 @@ editor<Advanced Editor>` opens.
 * If you choose one of the following problem types, a template appears in the
   editor with guidance for adding all of that problem type's required elements,
   as well as several optional elements.
+
+.. note:: Some advanced problem types are :ref:`unsupported<>` and are not
+   available for adding to your course unless you enable a setting in Studio.
+   For more information, see :ref:`Levels of Support` and :ref:TO COME
+
+
+.. list-table::
+   :widths: 25 60 20
+   :header-rows: 1
+
+   * - Type
+     - Description
+     - Support
+
+   * - :ref:`Custom JavaScript Display and Grading<Custom JavaScript>`
+     - Custom JavaScript display and grading problems (also called custom
+       JavaScript problems or JS input problems) allow you to create a custom
+       problem or tool that uses JavaScript and then add the problem or tool
+       directly into Studio.
+     - Full support
+   * - :ref:`Write Your Own Grader`
+     - In custom Python-evaluated input (also called "write-your-own-grader")
+       problems, the grader uses a Python script that you create and embed in
+       the problem to evaluate a learner's response or provide hints. These
+       problems can be any type.
+     - Provisional support
+   * - :ref:`Math Expression Input`
+     - Learners enter mathematical expressions to answer a question. These
+       problems can include unknown variables and more complex symbolic
+       expressions. You can specify a correct answer either explicitly or by
+       using a Python script.
+     - Full support; mobile-ready
+   * - :ref:`Peer Assessment<Open Response Assessments 2>`
+     - Learners receive feedback on responses that they submit, and give
+       feedback to other course participants. Open response assessments include
+       self assessment, peer assessment, and optionally, staff assessment.
+     - Full support
+
+.. when new Drag and Drop is enabled and included in the dropdown, add an entry to this table (above) for it.
+
+++++++++++++++++++++++++++++++++++
+Unsupported Advanced Problem Types
+++++++++++++++++++++++++++++++++++
+
+The following advanced problem types are :ref:`not supported<Levels of
+Support>` by edX and are not recommended for use in your course because they
+are not accessible for all learners. You can enable an option to show
+unsupported problem types in Studio. For more information, see :ref:
+
 
 .. list-table::
    :widths: 25 60 20
@@ -187,18 +238,6 @@ editor<Advanced Editor>` opens.
        resistors, and MOSFETs on an interactive grid. They then submit a DC,
        AC, or transient analysis of their circuits to the system for grading.
      - Not supported
-   * - :ref:`Custom JavaScript Display and Grading<Custom JavaScript>`
-     - Custom JavaScript display and grading problems (also called custom
-       JavaScript problems or JS input problems) allow you to create a custom
-       problem or tool that uses JavaScript and then add the problem or tool
-       directly into Studio.
-     - Full support
-   * - :ref:`Write Your Own Grader`
-     - In custom Python-evaluated input (also called "write-your-own-grader")
-       problems, the grader uses a Python script that you create and embed in
-       the problem to evaluate a learner's response or provide hints. These
-       problems can be any type.
-     - Provisional support
    * - :ref:`Drag and Drop`
      - Learners respond to a question by dragging text or objects to a specific
        location on an image. This version of the drag and drop problem type is
@@ -210,28 +249,18 @@ editor<Advanced Editor>` opens.
      - Learners answer prompts by selecting a defined area in an image. You
        define the area by including coordinates in the body of the problem.
      - Not supported
-   * - :ref:`Math Expression Input`
-     - Learners enter mathematical expressions to answer a question. These
-       problems can include unknown variables and more complex symbolic
-       expressions. You can specify a correct answer either explicitly or by
-       using a Python script.
-     - Full support; mobile-ready
    * - :ref:`Molecular Structure<Molecule Editor>`
      - Learners draw molecules that follow the rules for covalent bond
        formation and formal charge, even if the molecules are chemically
        impossible, are unstable, or do not exist in living systems.
      - Not supported
-   * - :ref:`Peer Assessment<Open Response Assessments 2>`
-     - Learners receive feedback on responses that they submit, and give
-       feedback to other course participants. Open response assessments include
-       self assessment, peer assessment, and optionally, staff assessment.
-     - Full support
    * - :ref:`Problem with Adaptive Hint`
      - A problem with an adaptive hint evaluates a learner's response, then
        gives the learner feedback or a hint based on that response so that the
        learner is more likely to answer correctly on the next attempt. These
        problems can be text input or multiple choice problems.
      - Not supported
+
 
 ******************************
 Additional Exercises and Tools
@@ -256,11 +285,7 @@ your course.
    * - Type
      - Description
      - Support
-   * - :ref:`Annotation`
-     - Learners respond to questions about a specific block of text. The
-       question appears above the text so that learners can think about the
-       question as they read.
-     - Not supported
+
    * - :ref:`Calculator`
      - Learners can enter input that includes Greek letters, trigonometric
        functions, and scientific or ``e`` notation in addition to common
@@ -268,18 +293,6 @@ your course.
        course advanced settings. When the calculator tool is enabled, it
        appears on every unit page.
      - Provisional support
-   * - :ref:`Chemical Equation`
-     - Learners enter a value that represents a chemical equation into a text
-       box. The grader uses Python script that you create and embed in the
-       problem to evaluate learner responses.
-     - Not supported
-   * - :ref:`completion`
-     - Learners mark sections of course content as completed. This tool helps
-       learners track their progress through sections of the course (including
-       ungraded activities such as reading text, watching videos, or
-       participating in course discussions), and gives them a way to indicate
-       to both themselves and course staff that they completed an activity.
-     - Not supported
    * - :ref:`Conditional Module`
      - You can create a conditional module to control versions of content that
        groups of learners see. For example, learners who answer "Yes" to a poll
@@ -298,17 +311,6 @@ your course.
        useful for software programming courses where learners are asked to
        submit complex code.
      - Provisional support
-   * - :ref:`Full Screen Image`
-     - Learners can enlarge an image in the entire browser window. This tool is
-       useful for detailed images that are easier to view when enlarged.
-     - Full support
-   * - :ref:`Gene Explorer`
-     - The gene explorer (GeneX) simulates the transcription, splicing,
-       processing, and translation of a small hypothetical eukaryotic gene.
-       Learners make specific mutations in a gene sequence, and this tool
-       calculates and displays the effects of the mutations on the mRNA and
-       protein.
-     - Not supported
    * - :ref:`Google Calendar Tool`
      - Learners see a Google calendar embedded in your course. You can use a
        Google calendar to share quiz dates, office hours, or other schedules of
@@ -327,22 +329,10 @@ your course.
      - With the iframe tool, you can integrate ungraded exercises and tools
        from any Internet site into an HTML component in your course.
      - Provisional support
-   * - :ref:`Image Mapped Input`
-     - Learners answer prompts by selecting a defined area in an image. You
-       define the area by including coordinates in the body of the problem.
-     - Provisional support
    * - :ref:`LTI Component`
      - LTI components allow you to add an external learning application or non-
        PDF textbook to Studio.
      - Full support
-   * - :ref:`Multiple Choice and Numerical Input`
-     - Learners not only choose one answer from a set of possible options, they
-       are also prompted to provide more specific information, if necessary.
-     - Not supported; mobile-ready
-   * - :ref:`Molecule Viewer`
-     - Learners view three-dimensional representations of molecules that you
-       create.
-     - Not supported
    * - :ref:`Office Mix Tool`
      - You can embed interactive lessons created from PowerPoint files so that
        learners can experience them directly in the course body.
@@ -355,47 +345,15 @@ your course.
      - This type of exercise offers the experience of the Peer Instruction
        learning system within your online course.
      - Full support
-   * - :ref:`Periodic Table`
-     - An interactive periodic table of the elements that shows detailed
-       information about each element when learners move the pointer over each
-       element.
-     - Not supported
    * - :ref:`Poll Tool`
      - You can include polls in your course to gather learners' opinions on
        various questions. You can use the Poll Tool in Studio.
-     - Not supported
-   * - :ref:`Poll`
-     - You can run polls in your course so that your learners can share
-       opinions on different questions. You can only add this type of poll to a
-       course by using OLX (open learning XML). Support for this tool in Studio
-       is not available. For more information, see the :ref:`olx:edX Open
-       Learning XML Guide`.
-     - Provisional support
-   * - :ref:`Problem with Adaptive Hint`
-     - A problem with an adaptive hint evaluates a learner's response, then
-       gives the learner feedback or a hint based on that response so that the
-       learner is more likely to answer correctly on the next attempt. These
-       problems can be text input or multiple choice problems.
-     - Provisional support
-   * - :ref:`Problem Written in LaTeX`
-     - If you have a problem that is already written in LaTeX, you can use this
-       problem type to convert your code into XML.
-     - Not supported
-   * - :ref:`Protein Builder`
-     - Learners create specified protein shapes by stringing together amino
-       acids.
-     - Not supported
+     - Full support
+
    * - :ref:`Qualtrics Survey`
      - You can import surveys that you have created in Qualtrics. The survey
        appears inside an iframe in your course.
-     - Full support
-   * - :ref:`RecommenderXBlock`
-     - RecommenderXBlock can hold a list of resources for misconception
-       remediation, additional reading, and so on. This tool allows the course
-       team and learners to work together to maintain the list of resources.
-       For example, team members and learners can suggest new resources, vote
-       for useful ones, or flag abuse and spam.
-     - Not supported
+     - Provisional support
    * - :ref:`Survey Tool`
      - You can include surveys in your course to collect learner responses to
        multiple questions. You can use the survey tool in Studio.
@@ -413,7 +371,91 @@ your course.
    * - :ref:`Zooming Image`
      - Learners can view sections of an image in detail. You specify the
        sections in an image that can be enlarged.
+     - Provisional support
+
+====================================
+Unsupported Additional Problem Types
+====================================
+
+
+The following additional problem types are :ref:`not supported<Levels of
+Support>` by edX and are not recommended for use in your course because they
+are not accessible for all learners. You can enable an option to show
+unsupported problem types in Studio and in the list of advanced modules in
+Advanced Settings. For more information, see :ref:
+
+.. list-table::
+   :widths: 25 60 20
+   :header-rows: 1
+
+   * - Type
+     - Description
+     - Support
+   * - :ref:`Annotation`
+     - Learners respond to questions about a specific block of text. The
+       question appears above the text so that learners can think about the
+       question as they read.
      - Not supported
+   * - :ref:`Chemical Equation`
+     - Learners enter a value that represents a chemical equation into a text
+       box. The grader uses Python script that you create and embed in the
+       problem to evaluate learner responses.
+     - Not supported
+   * - :ref:`completion`
+     - Learners mark sections of course content as completed. This tool helps
+       learners track their progress through sections of the course (including
+       ungraded activities such as reading text, watching videos, or
+       participating in course discussions), and gives them a way to indicate
+       to both themselves and course staff that they completed an activity.
+     - Not supported
+   * - :ref:`Full Screen Image`
+     - Learners can enlarge an image in the entire browser window. This tool is
+       useful for detailed images that are easier to view when enlarged.
+     - Not supported
+   * - :ref:`Gene Explorer`
+     - The gene explorer (GeneX) simulates the transcription, splicing,
+       processing, and translation of a small hypothetical eukaryotic gene.
+       Learners make specific mutations in a gene sequence, and this tool
+       calculates and displays the effects of the mutations on the mRNA and
+       protein.
+     - Not supported
+   * - :ref:`Multiple Choice and Numerical Input`
+     - Learners not only choose one answer from a set of possible options, they
+       are also prompted to provide more specific information, if necessary.
+     - Not supported
+   * - :ref:`Molecule Viewer`
+     - Learners view three-dimensional representations of molecules that you
+       create.
+     - Not supported
+   * - :ref:`Periodic Table`
+     - An interactive periodic table of the elements that shows detailed
+       information about each element when learners move the pointer over each
+       element.
+     - Not supported
+   * - :ref:`Poll`
+     - You can run polls in your course so that your learners can share
+       opinions on different questions. You can only add this type of poll to a
+       course by using OLX (open learning XML). Support for this tool in Studio
+       is not available. For more information, see the :ref:`olx:edX Open
+       Learning XML Guide`.
+     - Not supported
+   * - :ref:`Problem Written in LaTeX`
+     - If you have a problem that is already written in LaTeX, you can use this
+       problem type to convert your code into XML.
+     - Not supported
+   * - :ref:`Protein Builder`
+     - Learners create specified protein shapes by stringing together amino
+       acids.
+     - Not supported
+   * - :ref:`RecommenderXBlock`
+     - RecommenderXBlock can hold a list of resources for misconception
+       remediation, additional reading, and so on. This tool allows the course
+       team and learners to work together to maintain the list of resources.
+       For example, team members and learners can suggest new resources, vote
+       for useful ones, or flag abuse and spam.
+     - Not supported
+
+
 
 *********************************
 Mobile-Ready Problem Types
