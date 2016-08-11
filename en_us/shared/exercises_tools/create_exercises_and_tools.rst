@@ -24,6 +24,10 @@ The level of support that edX provides for each problem, exercise, or tool
 varies. The levels of support are categorized as full, provisional, or no
 support. This table provides the definition for each level of support.
 
+.. note:: Exercises and tools that are not supported are not available for
+   adding to your course unless you enable a setting in Studio. For more
+   information, see :ref: TO COME
+
 .. list-table::
    :widths: 25 60
    :header-rows: 1
@@ -48,6 +52,8 @@ support. This table provides the definition for each level of support.
        courses due to non-compliance with one or more of the base
        requirements, such as testing, accessibility, internationalization, and
        documentation.
+
+
 
 **************************************************************
 Enhancing Your Course with Additional Exercises and Tools
@@ -180,7 +186,7 @@ editor<Advanced Editor>` opens.
      - Learners arrange circuit elements such as voltage sources, capacitors,
        resistors, and MOSFETs on an interactive grid. They then submit a DC,
        AC, or transient analysis of their circuits to the system for grading.
-     - Provisional support
+     - Not supported
    * - :ref:`Custom JavaScript Display and Grading<Custom JavaScript>`
      - Custom JavaScript display and grading problems (also called custom
        JavaScript problems or JS input problems) allow you to create a custom
@@ -203,7 +209,7 @@ editor<Advanced Editor>` opens.
    * - :ref:`Image Mapped Input`
      - Learners answer prompts by selecting a defined area in an image. You
        define the area by including coordinates in the body of the problem.
-     - Provisional support
+     - Not supported
    * - :ref:`Math Expression Input`
      - Learners enter mathematical expressions to answer a question. These
        problems can include unknown variables and more complex symbolic
@@ -214,7 +220,7 @@ editor<Advanced Editor>` opens.
      - Learners draw molecules that follow the rules for covalent bond
        formation and formal charge, even if the molecules are chemically
        impossible, are unstable, or do not exist in living systems.
-     - No support
+     - Not supported
    * - :ref:`Peer Assessment<Open Response Assessments 2>`
      - Learners receive feedback on responses that they submit, and give
        feedback to other course participants. Open response assessments include
@@ -225,7 +231,7 @@ editor<Advanced Editor>` opens.
        gives the learner feedback or a hint based on that response so that the
        learner is more likely to answer correctly on the next attempt. These
        problems can be text input or multiple choice problems.
-     - Provisional support
+     - Not supported
 
 ******************************
 Additional Exercises and Tools
@@ -254,7 +260,7 @@ your course.
      - Learners respond to questions about a specific block of text. The
        question appears above the text so that learners can think about the
        question as they read.
-     - Provisional support
+     - Not supported
    * - :ref:`Calculator`
      - Learners can enter input that includes Greek letters, trigonometric
        functions, and scientific or ``e`` notation in addition to common
@@ -266,14 +272,14 @@ your course.
      - Learners enter a value that represents a chemical equation into a text
        box. The grader uses Python script that you create and embed in the
        problem to evaluate learner responses.
-     - Full support
+     - Not supported
    * - :ref:`completion`
      - Learners mark sections of course content as completed. This tool helps
        learners track their progress through sections of the course (including
        ungraded activities such as reading text, watching videos, or
        participating in course discussions), and gives them a way to indicate
        to both themselves and course staff that they completed an activity.
-     - Full support
+     - Not supported
    * - :ref:`Conditional Module`
      - You can create a conditional module to control versions of content that
        groups of learners see. For example, learners who answer "Yes" to a poll
@@ -302,16 +308,16 @@ your course.
        Learners make specific mutations in a gene sequence, and this tool
        calculates and displays the effects of the mutations on the mRNA and
        protein.
-     - Provisional support
+     - Not supported
    * - :ref:`Google Calendar Tool`
      - Learners see a Google calendar embedded in your course. You can use a
        Google calendar to share quiz dates, office hours, or other schedules of
        interest to learners.
-     - Full support
+     - Provisional support
    * - :ref:`Google Drive Files Tool`
      - Learners see a Google Drive file, such as a document, spreadsheet, or
        image, embedded in your course.
-     - Full support
+     - Provisional support
    * - :ref:`Google Instant Hangout`
      - Learners participate in instant hangouts directly in your course. With
        instant hangouts, learners can interact through live video and voice,
@@ -332,19 +338,19 @@ your course.
    * - :ref:`Multiple Choice and Numerical Input`
      - Learners not only choose one answer from a set of possible options, they
        are also prompted to provide more specific information, if necessary.
-     - Provisional support; mobile-ready
+     - Not supported; mobile-ready
    * - :ref:`Molecule Viewer`
      - Learners view three-dimensional representations of molecules that you
        create.
-     - No support
+     - Not supported
    * - :ref:`Office Mix Tool`
      - You can embed interactive lessons created from PowerPoint files so that
        learners can experience them directly in the course body.
-     - Full support
+     - Provisional support
    * - :ref:`Oppia Exploration Tool`
      - You can embed Oppia explorations in your course so that learners can
        interact with them directly in the course body.
-     - Full support
+     - Provisional support
    * - :ref:`UBC Peer Instruction`
      - This type of exercise offers the experience of the Peer Instruction
        learning system within your online course.
@@ -353,11 +359,11 @@ your course.
      - An interactive periodic table of the elements that shows detailed
        information about each element when learners move the pointer over each
        element.
-     - No support
+     - Not supported
    * - :ref:`Poll Tool`
      - You can include polls in your course to gather learners' opinions on
        various questions. You can use the Poll Tool in Studio.
-     - Full support
+     - Not supported
    * - :ref:`Poll`
      - You can run polls in your course so that your learners can share
        opinions on different questions. You can only add this type of poll to a
@@ -374,11 +380,11 @@ your course.
    * - :ref:`Problem Written in LaTeX`
      - If you have a problem that is already written in LaTeX, you can use this
        problem type to convert your code into XML.
-     - No support
+     - Not supported
    * - :ref:`Protein Builder`
      - Learners create specified protein shapes by stringing together amino
        acids.
-     - No support
+     - Not supported
    * - :ref:`Qualtrics Survey`
      - You can import surveys that you have created in Qualtrics. The survey
        appears inside an iframe in your course.
@@ -389,7 +395,7 @@ your course.
        team and learners to work together to maintain the list of resources.
        For example, team members and learners can suggest new resources, vote
        for useful ones, or flag abuse and spam.
-     - Full support
+     - Not supported
    * - :ref:`Survey Tool`
      - You can include surveys in your course to collect learner responses to
        multiple questions. You can use the survey tool in Studio.
@@ -407,7 +413,7 @@ your course.
    * - :ref:`Zooming Image`
      - Learners can view sections of an image in detail. You specify the
        sections in an image that can be enlarged.
-     - Full support
+     - Not supported
 
 *********************************
 Mobile-Ready Problem Types
