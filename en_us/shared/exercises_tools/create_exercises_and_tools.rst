@@ -371,7 +371,7 @@ your course.
    * - :ref:`Zooming Image`
      - Learners can view sections of an image in detail. You specify the
        sections in an image that can be enlarged.
-     - Provisional support
+     - Full support
 
 ====================================
 Unsupported Additional Problem Types
