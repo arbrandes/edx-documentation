@@ -53,8 +53,39 @@ support. This table provides the definition for each level of support.
        When you add course content in Studio, only exercises and problem types
        that have full or provisional support are available by default. To
        enable adding unsupported exercises and problem types in Studio, see
-       :ref: TO COME.
+       :ref:`Add_Unsupported_Exercises_Problems`.
 
+
+.. _Add_Unsupported_Exercises_Problems:
+
+===================================================
+Adding Unsupported Exercises and Problem Types
+===================================================
+
+To create course content that is accessible to as many learners as possible,
+you should use only exercises and problem types that are either fully or
+provisionally supported by edX. By default, only supported exercises and
+problem types are available in Studio for adding to courses.
+
+However, in some situations, you might need to use exercises and problem types
+that edX does not support. Unsupported exercises and problem types might not
+offer robust functionality and might not be fully tested and documented. In
+addition, course content that you create by using unsupported exercises and
+problem types might not be accessible for all learners, including those who
+rely on keyboard navigation or screen reader technologies.
+
+To add unsupported exercises and tools to your course, follow these steps.
+
+#. In Studio, select **Settings**, then **Advanced Settings**.
+
+#. Locate the **Add Unsupported Problems and Tools** field, and enter a value
+   of ``true``.
+
+#. Select **Save Changes**.
+
+After you enable this setting, unsupported problem types are available in the
+lists of new common and advanced components that you can add to your course in
+Studio.
 
 
 **************************************************************
@@ -179,7 +210,7 @@ editor<Advanced Editor>` opens.
 
 .. note:: Some advanced problem types are :ref:`unsupported<>` and are not
    available for adding to your course unless you enable a setting in Studio.
-   For more information, see :ref:`Levels of Support` and :ref:TO COME
+   For more information, see :ref:`Add_Unsupported_Exercises_Problems`.
 
 
 .. list-table::
@@ -223,8 +254,8 @@ Unsupported Advanced Problem Types
 The following advanced problem types are :ref:`not supported<Levels of
 Support>` by edX and are not recommended for use in your course because they
 are not accessible for all learners. You can enable an option to show
-unsupported problem types in Studio. For more information, see :ref:
-
+unsupported problem types in Studio. For more information, see
+:ref:`Add_Unsupported_Exercises_Problems`.
 
 .. list-table::
    :widths: 25 60 20
@@ -268,6 +299,10 @@ Additional Exercises and Tools
 
 This table lists a variety of different exercises and tools that you can add to
 your course.
+
+.. note:: Some additional exercises and tools :ref:`unsupported<>` and are not
+   available for adding to your course unless you enable a setting in Studio.
+   For more information, see :ref:`Add_Unsupported_Exercises_Problems`.
 
 .. to come: revise to eliminate entries with no support. Add pointer (at least for Open edX) to all of the XBlocks that are available.
 
@@ -349,7 +384,6 @@ your course.
      - You can include polls in your course to gather learners' opinions on
        various questions. You can use the Poll Tool in Studio.
      - Full support
-
    * - :ref:`Qualtrics Survey`
      - You can import surveys that you have created in Qualtrics. The survey
        appears inside an iframe in your course.
@@ -362,27 +396,21 @@ your course.
      - Word clouds arrange text that learners enter in response to a question
        into a colorful graphic.
      - Provisional support
-   * - :ref:`Write Your Own Grader`
-     - In custom Python-evaluated input (also called "write-your-own-grader")
-       problems, the grader uses a Python script that you create and embed in
-       the problem to evaluate a learner's response or provide hints. These
-       problems can be any type.
-     - Provisional support
    * - :ref:`Zooming Image`
      - Learners can view sections of an image in detail. You specify the
        sections in an image that can be enlarged.
      - Full support
 
-====================================
-Unsupported Additional Problem Types
-====================================
+===========================================
+Unsupported Additional Exercises and Tools
+===========================================
 
-
-The following additional problem types are :ref:`not supported<Levels of
+The following additional exercises and tools are :ref:`not supported<Levels of
 Support>` by edX and are not recommended for use in your course because they
 are not accessible for all learners. You can enable an option to show
 unsupported problem types in Studio and in the list of advanced modules in
-Advanced Settings. For more information, see :ref:
+Advanced Settings. For more information, see
+:ref:`Add_Unsupported_Exercises_Problems`.
 
 .. list-table::
    :widths: 25 60 20
@@ -454,7 +482,6 @@ Advanced Settings. For more information, see :ref:
        For example, team members and learners can suggest new resources, vote
        for useful ones, or flag abuse and spam.
      - Not supported
-
 
 
 *********************************
