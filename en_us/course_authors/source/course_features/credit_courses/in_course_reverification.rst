@@ -19,10 +19,11 @@ Enable In-Course Identity Reverification
 *****************************************
 
 .. note:: The in-course identity reverification process requires using the edx-
-   reverification-block, which is :ref:`Levels of Support<unsupported>`. You
-   must follow the steps to :ref:`Add_Unsupported_Exercises_Problems<allow
-   adding unsupported>` tools and problem types before you can complete the
-   steps to enable in-course identity reverification.
+   reverification-block, which is :ref:`unsupported<Levels of Support>`. You
+   must follow the steps to :ref:`allow adding
+   unsupported<Add_Unsupported_Exercises_Problems>` tools and problem types
+   before you can complete the steps to enable in-course identity
+   reverification.
 
 To enable in-course identity reverification for your course, follow these
 steps.
