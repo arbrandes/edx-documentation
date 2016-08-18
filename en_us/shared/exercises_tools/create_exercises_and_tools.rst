@@ -355,11 +355,6 @@ your course.
      - Learners see a Google Drive file, such as a document, spreadsheet, or
        image, embedded in your course.
      - Provisional support
-   * - :ref:`Google Instant Hangout`
-     - Learners participate in instant hangouts directly in your course. With
-       instant hangouts, learners can interact through live video and voice,
-       share screens and watch videos together, and collaborate on documents.
-     - Provisional support
    * - :ref:`IFrame`
      - With the iframe tool, you can integrate ungraded exercises and tools
        from any Internet site into an HTML component in your course.
