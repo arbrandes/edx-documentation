@@ -452,10 +452,8 @@ Mobile App Updates
 ***********************
 
 The Open edX Eucalyptus release includes the following features in the mobile
-app. The latest versions of the app are: version 2.6.2 for Android, and 2.5.0
+app. The latest versions of the app are: version 2.5.1 for Android, and 2.5.3
 for iOS.
-
-.. Chris, can you please confirm the versions that made the cut for Eucalyptus?
 
 * Discussion forums including support for content-specific discussion topics in
   course units. Discussions can be viewed in landscape mode.
@@ -467,8 +465,8 @@ for iOS.
   information in the mobile app. In discussions, selecting the linked username
   of the author of a post takes you to that person's profile page.
 
-* The number of days before OAuth tokens expire for mobile OAuth clients can be
-  configured.
+* The mobile app now uses refresh tokens. Learners do not have to log in again,
+  even after a token expires.
 
 * Mobile-ready assessments now include the drag and drop and math expression
   input problem types as well as basic assessment types (checkbox, dropdown,
