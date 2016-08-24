@@ -452,11 +452,12 @@ Mobile App Updates
 ***********************
 
 The Open edX Eucalyptus release includes the following features in the mobile
-app. The latest versions of the app are: version 2.5.1 for Android, and 2.5.3
-for iOS.
+app. The latest versions of the app are version 2.5.1 for Android and 2.5.3 for
+iOS.
 
-* Discussion forums including support for content-specific discussion topics in
-  course units. Discussions can be viewed in landscape mode.
+* Course discussions are now supported in the mobile app, including content-
+  specific discussion topics in course units. Discussions can be viewed in
+  landscape mode.
 
 * Course search. Learners can search for courses using keywords, and filter
   courses by subject and availability.
